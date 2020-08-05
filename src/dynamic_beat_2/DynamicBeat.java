@@ -17,10 +17,10 @@ public class DynamicBeat extends JFrame {
 	public DynamicBeat() {
 		setTitle("Dynamic Beat");
 		setSize(Main.SCREEN_WIDTH,Main.SCREEN_HEIGHT);
-		setResizable(false); // Ã¢ Å©±â Á¶Àı±â´É
-		setLocationRelativeTo(null); //°ÔÀÓÃ¢ÀÌ ÄÄÇ»ÅÍ Á¤Áß¾Ó¿¡ ¶ä 
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //°ÔÀÓÁ¾·á½Ã ÇÁ·Î±×·¥ÀÌ Á¾·á
-		setVisible(true); //°ÔÀÓ Ã¢ÀÌ Ãâ·ÂµÇµµ·Ï 
+		setResizable(false); // ì°½ í¬ê¸° ì¡°ì ˆê¸°ëŠ¥
+		setLocationRelativeTo(null); //ê²Œì„ì°½ì´ ì»´í“¨í„° ì •ì¤‘ì•™ì— ëœ¸
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //ê²Œì„ì¢…ë£Œì‹œ í”„ë¡œê·¸ë¨ì´ ì¢…ë£Œ
+		setVisible(true); //ê²Œì„ ì°½ì´ ì¶œë ¥ë˜ë„ë¡ 
 		
 		introBackground = new ImageIcon(Main.class.getResource("../images/introBackground(title).jpg")).getImage();
 		
