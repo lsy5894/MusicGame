@@ -69,9 +69,9 @@ public class DynamicBeat extends JFrame {
 		Music introMusic = new Music("Song0.mp3", true); // 첫시작화면 음악
 		introMusic.start();
 		
-		trackList.add(new Track("music1.jpg","music1.jpg","music1.jpg","Song1.mp3","Song1.mp3"));
-		trackList.add(new Track("music2.jpg","music2.jpg","music2.jpg","Song2.mp3","Song2.mp3"));
-		trackList.add(new Track("music3.jpg","music3.jpg","music3.jpg","Song3.mp3","Song3.mp3"));
+		trackList.add(new Track("song1Title.png","music1.jpg","music1.jpg","Song1.mp3","Song1.mp3"));
+		trackList.add(new Track("song2Title.png","music2.jpg","music2.jpg","Song2.mp3","Song2.mp3"));
+		trackList.add(new Track("song3Title.png","music3.jpg","music3.jpg","Song3.mp3","Song3.mp3"));
 		
 		// 나가기 버튼
 		exitButton.setBounds(1245, 0, 30, 30);
