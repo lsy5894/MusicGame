@@ -21,6 +21,7 @@ public class Note extends Thread {
 	public void close() {
 		proceeded=false;
 	}
+	
 	public Note( String noteType) {
 		if(noteType.equals("S")) {
 			x=228;

@@ -17,17 +17,12 @@ import javax.swing.JLabel;
 
 public class DynamicBeat extends JFrame {
 	
-	
-
 	private Image screenImage;
-	private Graphics screenGraphic;
-
-	
+	private Graphics screenGraphic;	
 	private Image Background = new ImageIcon(Main.class.getResource("../images/introbackground(title).png")).getImage(); //처음시작 이미지
-	
 	private JLabel menuBar = new JLabel(new ImageIcon(Main.class.getResource("../images/menuBar.png")));
 
-	// 게임시작, 게임종료, 나가기버튼
+	// 게임시작, 게임종료,나기기버튼
 	private ImageIcon exitButtonEnteredImage = new ImageIcon(Main.class.getResource("../images/exitButtonEntered.png"));
 	private ImageIcon exitButtonBasicImage = new ImageIcon(Main.class.getResource("../images/exitButtonBasic.png"));
 	private ImageIcon startButtonEnteredImage = new ImageIcon(
